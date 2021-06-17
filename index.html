@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quote Generator</title>
     <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=jskin.desine">
     <link rel="stylesheet"
         href="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==">
@@ -12,7 +12,31 @@
 </head>
 
 <body>
-    <h1>Hello, World!</h1>
+    <div class="quote-container" id="quote-container">
+        <!-- Quote -->
+        <div class="quote-text">
+            <i class="fas fa-quote-left"></i>
+            <span id="quote">Because of your smile, you make life more beautiful! </span>
+        </div>
+        <!-- Author -->
+        <div class="quote-aouthor">
+            <span id="author">Thich Nhat Hanh</span>
+        </div>
+        <!-- buttons -->
+        <div class="button-container">
+            <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button"
+                data-size="small"><a target="_blank"
+                    href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse"
+                    class="fb-xfbml-parse-ignore">Share</a></div>
+            <!-- <a href="https://www.facebook.com/sharer/sharer.php?u=example.org" target="_blank"> -->
+            <!-- Share on Facebook -->
+            <!-- </a> -->
+            </button>
+            <button id="new-quote">New Quote</button>
+
+        </div>
+    </div>
+
 
     <!-- Script -->
     <script src="script.js"></script>
